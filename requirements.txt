@@ -5,3 +5,4 @@ tabula-py
 xgboost
 shap
 plotly
+numpy==1.20
