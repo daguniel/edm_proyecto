@@ -6,7 +6,7 @@ import googlemaps
 from tabula.io import read_pdf
 import statistics
 import xgboost as xgb
-import shap
+import shap as shap_lib
 import streamlit.components.v1 as components
 import plotly.graph_objects as go
 
@@ -36,7 +36,7 @@ def open_hurtos():
     return data
 
 def st_shap(plot, height=None):
-    shap_html = f"<head>{shap.getjs()}</head><body>{plot.html()}</body>"
+    shap_html = f"<head>{shap_lib.getjs()}</head><body>{plot.html()}</body>"
     components.html(shap_html, height=height)
 
 
@@ -394,11 +394,11 @@ if st.button('PREDECIR PRECIO DE VIVIENDA'):
     
     st.markdown('## ¿Por qué este piso vale lo que vale?')
     
-    explainer = shap.TreeExplainer(loaded_model)
+    explainer = shap_lib.TreeExplainer(loaded_model)
     shap_values = explainer.shap_values(indiv_modelo)
 
     # visualize the first prediction's explanation (use matplotlib=True to avoid Javascript)
-    st_shap(shap.force_plot(explainer.expected_value, shap_values[0,:], indiv_modelo.iloc[0,:]))   
+    st_shap(shap_lib.force_plot(explainer.expected_value, shap_values[0,:], indiv_modelo.iloc[0,:]))   
     
     
     
