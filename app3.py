@@ -41,7 +41,7 @@ def st_shap(plot, height=None):
 
 
 
-API_KEY = 'AIzaSyDnhgUgO__35_BWWnY-5sTSmjOIIjWDOYA'
+API_KEY = 'AIzaSyBZaIOIr5U4xfKUuYmNsf58dOeKH4SPX04'
 
 def buscar_lugares_turismo(lat, lng, radio=700):
     # Configura tu clave de API
