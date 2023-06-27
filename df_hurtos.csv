@@ -1,0 +1,28 @@
+cod_pos,distrito,zona,Mayor(+) o menor (-) probabilidad respecto la ciudad de Valencia
+46022,Algirós y Camins al Grau,Ciutat Jardí y Ayora,0.39899999999999997
+46004,Ensanche,El Pla de Remei,0.358
+46016,Poblados del Norte,Tavernes Blanques,0.276
+46019,Rascaña,"Sant Llorenç, Torrefiel y Orriols",0.214
+46002,Ciutat Vella,Sant Francesc,0.198
+46014,L'Olivereta y Patraix,"Soternes, La Llum, Vara de Quart, Safranar y Patraix",0.158
+46025,Benicalap,Borbotó y Carpesa,0.149
+46005,Ensanche,Gran Vía y Ruzafa,0.147
+46015,Campanar,Sant Pau,0.138
+46023,Camins al Grau,"La Creu del Grau, Camí Fondo y Penya Roja",0.019
+46018,L'Olivereta,Nou Moles y Tres Forques,0.011000000000000001
+46003,Ciutat Vella,La Xerea,0.009000000000000001
+46009,La Saïdia,Tromos y Marxalenes,0.003
+46017,Jesús y Patraix,"Camí Real, San Marcelino, La Creu Coberta y Favara",-0.006
+46013,Quatre Carreres,"C. Artes y las Ciencias, Font de S. Lluis, La Punta",-0.006999999999999999
+46021,Algirós,La Bega Baixa y L'Amistat,-0.018000000000000002
+46007,Extramurus y Jesús,"La Roqueta, Arrancapins y La Raiosa",-0.061
+46006,Quatre Carreres,En Corts y Mont-Olivet,-0.062
+46026,Poblados del Sur,MAlilla y Horno de Alcedo,-0.081
+46008,Extramurus,El Botànic y La Petxina,-0.11800000000000001
+46024,Poblados Marítimos,Nazaret,-0.192
+46011,Poblados Marítimos,Malvarrosa y Cabanyal,-0.198
+46020,Benimaclet,Benimaclet,-0.255
+46010,El Pla del Real,Mestalla y Exposició,-0.28
+46001,Ciutat Vella,El Pilar y El Mercat,-0.387
+46012,Poblados del Sur,Pobaldos del Sur,-0.441
+46035,Poblados del Oeste,Benimamet y Poblados del Oeste,-0.496
